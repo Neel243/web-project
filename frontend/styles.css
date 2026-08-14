@@ -31,6 +31,7 @@ h1{
 
 body{
  background-color: antiquewhite;
+ margin: 0px;
 }
 
 
@@ -39,4 +40,25 @@ body{
  border-radius: 20px;
  padding: 10px;
  margin-bottom: 10px;
+}
+.navbar{
+    text-align: center;
+    border: 3px solid black;
+    
+    padding-bottom:20px;
+    padding-top:20px;
+    background-color:white;
+
+
+
+}
+.navbar a{
+     margin-right: 15px;
+     text-decoration:none;
+     color: gray;
+
+}
+.navbar a:hover{
+    color: black;
+    text-decoration: underline;
 }
